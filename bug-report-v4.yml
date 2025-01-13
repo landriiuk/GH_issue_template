@@ -1,0 +1,46 @@
+name: Bug Report 🪲
+description: Create a bug report to help us improve
+title: '[Bug]: '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Please follow these steps first:
+  - type: markdown
+    attributes:
+      value: |
+        ## Make a minimal reproduction
+        To file the report, you will need a GitHub repository with a minimal (but complete) example and simple/clear steps on how to reproduce the bug.
+        The simpler you can make it, the more likely we are to successfully verify and fix the bug. You can create a new project with `npm init playwright@latest new-project` and then add the test code there.
+        Please make sure you only include the code and the dependencies absolutely necessary for your repro. Due to the security considerations, we can only run the code we trust. Major web frameworks are Ok to use, but smaller convenience libraries are not. 
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Please provide detailed steps to reproduce the bug.
+      placeholder: |
+        Example steps (replace with your own):
+        1. Login with valid credentials as a ...
+        2. Navigate to ...
+        3. Click on ...
+        4. ...
+        5. ...
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Actual behavior
+      description: 
+        A clear and concise description of the unexpected behavior.
+        Please include any relevant output here, especially any error messages.
+      placeholder: I expect to see X or Y
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that might be relevant
+    validations:
+      required: false
