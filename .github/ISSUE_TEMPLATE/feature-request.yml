@@ -1,8 +1,8 @@
 name: Feature Request 💡
 description: Propose a new feature or enhancement
 title: '[Feature Request]: '
-labels: 
-  - "feature request"
+# this label should be added manually to the repo
+labels: ["feature request"]
 body:
   - type: markdown
     attributes:
