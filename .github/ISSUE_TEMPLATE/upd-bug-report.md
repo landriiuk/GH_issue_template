@@ -8,15 +8,17 @@ title: "[Issue]: "
 Provide a clear and concise description of the issue.
 
 ---
-
 **Steps to Reproduce**  
-Please include detailed, numbered steps to reproduce the issue:
-1. Login with valid credentials as a ...
-2. Navigate to ...
-3. Click on ...
-4. ...
-5. ...
+<details>
+<summary>Click to expand the steps container</summary>
 
+1. Login with valid credentials as a `<role>`.
+2. Navigate to `<location>` in the application.
+3. Perform `<specific action>`.
+4. Observe `<expected outcome or specific behavior>`.
+5. Additional steps if needed.
+6. ...
+</details>  
 ---
 
 **Actual Behavior**  
