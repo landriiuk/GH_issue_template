@@ -1,5 +1,5 @@
 ---
-name: Issue Report
+name: Issue Report v2
 about: Submit an issue for this project
 title: "[Issue]: "
 ---
